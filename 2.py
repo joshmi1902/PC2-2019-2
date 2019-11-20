@@ -32,9 +32,9 @@ promedio = (e[0]+e[1]+e[2]+e[3]+ e[4])/5
    
 
 print("*********LISTADO*******")
-print("nombre de los inscritos son: ", n)
-print("sexo de los inscritos: ", s)
-print("edad de los inscritos son: ", e)
+print("Nombre de los inscritos son: ", n)
+print("Sexo de los inscritos: ", s)
+print("Edad de los inscritos son: ", e)
 print("Hay: " ,hombres, "hombres")
 print("Hay: ", mujeres, "mujeres")
-print("el promedio de edades es: ", promedio)
+print("El promedio de edades es: ", promedio)
