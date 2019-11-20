@@ -8,11 +8,11 @@ hombres = 0
 mujeres = 0
 
 #proceso
-while len(n) < 5:
+while len(n) < 5 and len (e) < 5 and len(s) < 5:
     name = input("ingrese nombre: ")
     n.append(name)     
     
-while len(s) < 5:
+
     sexo = input("ingrese sexo: ")
     if sexo == "masculino" or sexo == "femenino":
         s.append(sexo)
@@ -21,7 +21,7 @@ while len(s) < 5:
         if sexo == "femenino":
             mujeres += 1
    
-while len (e) < 5:
+
     edad = int(input("ingrese edad: "))
     if edad <=17 or edad >= 5:
         e.append(edad)
